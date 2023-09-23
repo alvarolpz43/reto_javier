@@ -30,7 +30,7 @@ function LoginPage() {
             ))
         }
 
-        <h1 className='text-2xl font-bold'>Login</h1>
+        <h1 className='text-3xl font-bold my-2'>Login</h1>
       <form onSubmit={onSubmit}>
             
             <input type="email" {...register('email', {required: true})}
@@ -53,7 +53,8 @@ function LoginPage() {
                 )
             }
             
-            <button type="submit" >
+            <button type="submit"
+            className='bg-sky-500 text-white px-4 py-2 rounded-md my-2' >
                 Login
             </button>
 

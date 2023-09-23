@@ -16,7 +16,8 @@ function App(){
     <AuthProvider>
           <TaskProvider>
           <BrowserRouter>
-          <Navbar/>
+         <main className="container mx-auto px-10">
+         <Navbar/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/login" element={<LoginPage/>}/>
@@ -31,6 +32,7 @@ function App(){
 
         </Route>
       </Routes>
+         </main>
     </BrowserRouter>
           </TaskProvider>
     </AuthProvider>
