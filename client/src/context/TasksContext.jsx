@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import {createTasksRequest, getTasksRequest,deleteTasksRequest,getTaskRequest,updateTasksRequest} from '../api/tasks'
+import {createTasksRequest, getTasksRequest,deleteTasksRequest,getTaskRequest,updateTasksRequest} from '../api/tasks';
 
 const TaskContext = createContext();
 export const useTasks = ()=>{
